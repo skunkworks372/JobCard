@@ -31,7 +31,7 @@ namespace JobSystem
             string searchStr = tbSearch.Text.Trim();
             if (searchStr.Length < 1)
             {
-                MessageBox.Show("Please enter a search phrase");
+                MessageBox.Show("Please enter a search phrase.");
                 tbSearch.Focus();
                 return;
             }

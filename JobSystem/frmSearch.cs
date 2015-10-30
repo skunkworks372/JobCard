@@ -15,7 +15,7 @@ namespace JobSystem
         SqlConnection myConnection;
         string connStr = "Server=MRCSERVER\\MRCSQLSERVER;Database=MRC DataBase;User ID=Freeman;Password=Freeman2"; 
 
-        public frmSearch()
+        public frmSearch() 
         {
             InitializeComponent();
         }

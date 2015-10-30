@@ -1,7 +1,8 @@
 # Read Me
 
-This is the repository that contains the Job Card System fun Unknown, LLC.
+CF,
+
+Get Visual Studio Ultimate 2014, then I will walk trough pulling this down, building it and releasing it.
 
 
-
-Good Luck
+AC

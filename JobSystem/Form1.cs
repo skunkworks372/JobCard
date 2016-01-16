@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+
 
 
 namespace JobSystem
@@ -20,7 +18,7 @@ namespace JobSystem
 
         //SQL
         bool connectionGood;
-        string connStr = "Server=MRCSERVER\\MRCSQLSERVER;Database=MRC DataBase;User ID=Freeman;Password=Freeman2"; //?????
+        string connStr = "Server=MRC-FILE-1;Database=MRC DataBase;User ID=balls;Password=balls"; //?????
         string updateCommand = "UPDATE JobCard SET JName = @JName, JDescription = @JDescription, JWarrenty = @JWarrenty, JHoursEstmated = @JHoursEstmated, JHoursTook = @JHoursTook, JPrice = @JPrice, JSquares = @JSquares, JDate = @JDate WHERE JID = @JID";
         string insertCommand = "INSERT INTO JobCard (JName, JDescription, JWarrenty, JHoursEstmated, JHoursTook, JPrice, JSquares, JDate) VALUES (@JName,@JDescription,@JWarrenty,@JHoursEstmated,@JHoursTook,@JPrice,@JSquares,@JDate)";
         string selectCommand = "SELECT * FROM JobCard";

@@ -49,6 +49,8 @@ namespace JobSystem
         {
             InitializeComponent();
             startUp();
+
+            this.Text = "Job Card";
         }
 
 
